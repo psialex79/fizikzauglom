@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_lesson_lesson_blocks",
+  "info": {
+    "displayName": "lesson-block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "htmlCode": {
+      "type": "text"
+    }
+  }
+}
